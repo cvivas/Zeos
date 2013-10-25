@@ -1,0 +1,16 @@
+
+
+Nombres:
+Carlos Vivas Abilahud	
+Santiago Boix Lago	
+
+Para esta ultima entrega, el juego de pruebas consiste en diversas funciones incluidas en el documento pruebas.c
+Dichas funiones tienen comentarios sobre las pruebas realizadas.
+TODAS las funciones de prueba estaran comentadas en el main excepto las de instalacion y desinstalacion de los modulos (para probarlas hay que compilar y ejecutar el archivo pruebas.c con privilegios de "root") . 
+
+
+En esta entrega se han provado los 2 modulos que nos pidieron desarrollar: uno que defina una estructura para almacenar las estadisticas de diversas llamadas a sistema y un segundo que se ocupe de permitir el acceso a dichas estadisticas.
+
+En el main tenemos 2 funciones de prueba: una que se ocupa de verificar la monitorizacion dinamica (activar o desactivar selectivamente las estadisticas de las llamadas a sistema). Y luego, un segunda mas general que prueba el cambio de proceso o de llamada a sistema que se esta monitorizando y el reset de los valores estadisticos del proceso actual o de todos los procesos.
+
+
